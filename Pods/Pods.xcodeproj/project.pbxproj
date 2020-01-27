@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B7F7C9E32EBF66CD80D843B44DA222 /* Swift+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F6263A4B21290023048E02F2974F9 /* Swift+Sweeter.swift */; };
+		08C02AB0707A222669F57C7C0F9DF2F8 /* AvailableHapticFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8FA7F46C352D70D1D9860989036BE5 /* AvailableHapticFeedback.framework */; };
+		0FAF10B953348E4809D9C0E0D90373AC /* MultiSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A928551101E0B86BEEEBE0E01141F /* MultiSliderExtensions.swift */; };
+		1C70499DBB19E6F16AA731D3EEFEF379 /* AvailableHapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EDCC3942C8D65D1B39E6ECC654DEC2 /* AvailableHapticFeedback.swift */; };
+		1F0BF72601371B45C31EB0357E374AEB /* SweeterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC4BF210EF0AACBFC946AF60A2456B /* SweeterSwift-dummy.m */; };
+		3346DBAD90FF44438585AAEB1F45E65A /* MultiSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC8D5AFB7AB3881806D14BD9C8E7A5 /* MultiSlider-dummy.m */; };
+		36D75CB53A4B99F1F5E32F68DAC33661 /* MultiSlider+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27802737069791AF3F6FB8597CEFB25 /* MultiSlider+Drag.swift */; };
+		3A89DB35B5BC3B209426A1D62F9CB0B1 /* String+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C55EB4C7EFC5F0AE5D631BABF584B /* String+Sweeter.swift */; };
+		3AC2048A343B5BE69E3943B38EFD98F3 /* Pods-SliderTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BC732B1C1F593A82C701BD5C521A84 /* Pods-SliderTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		426D653DE601DC368465AAAB635BAA76 /* NSAttributedString+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E86193EF75D89D8BE40E89EC9B67FD /* NSAttributedString+Sweeter.swift */; };
+		443CF6A26998A642A34DB1B97B8E465D /* TimeInterval+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2359CD76C2A9F01E29AB8CD1DE921DB /* TimeInterval+Sweeter.swift */; };
+		4CB9FD431FB20AE7D8D3EFF7CAB104E2 /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A9EA69A5FC98FC0CDDFE4A2A0B16A /* UIView+Sweeter.swift */; };
+		6065B6A7DD8827C0C12518F0DF6D0CFE /* SweeterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B234180E6D667BD4540B5234D721F1A6 /* SweeterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E8AE64ABD5300742412EFEF2B57006 /* UIApplication+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34BBF2C0C97B9B790EE2B172158895 /* UIApplication+Sweeter.swift */; };
+		65A022FAE15175566197A94A7A3BD8F0 /* UIStackView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C74AAFA077F8A9B81646F287984E86 /* UIStackView+Sweeter.swift */; };
+		66F841179D74843A535AAB86E5777F5C /* AvailableHapticFeedback-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4969C106CFF9F944997C435577BAF7E /* AvailableHapticFeedback-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DB5EB233C9105978FEBF1661CAB69AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEA8D1DA2DC676ADA162AF5D719AFF /* Foundation.framework */; };
+		729444C129930B0D6D866F472B9135A2 /* Bundle+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E75ECD69AAA29B181AB9CF0561082 /* Bundle+Sweeter.swift */; };
+		75EEAD1A654E8D0FDE8AA1B3692D519E /* MultiSlider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2F2992395511AB50B86D4F21AE278 /* MultiSlider+Internal.swift */; };
+		7773D89CDF2497CD790455F96E9CBD6F /* Codable+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99437268A5E6D693CECF071BDE21A2 /* Codable+Sweeter.swift */; };
+		8390D125170BF642F18ABA21E6AF3600 /* NSObject+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277607EBCC1AF6854064855AE4E9B76 /* NSObject+Sweeter.swift */; };
+		84EB4E634F9BB3D8E51F4E0ED1D3EA7F /* UITextView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2A641C84868ACFC6983DB242C4610 /* UITextView+Sweeter.swift */; };
+		87F0BE26A904FDF5BFCED740E6DAC5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEA8D1DA2DC676ADA162AF5D719AFF /* Foundation.framework */; };
+		96E0003CC70501D2350A2EE19D63FA3D /* Pods-SliderTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A6CB22EEB260B581C43D3952BB1CE /* Pods-SliderTestApp-dummy.m */; };
+		A690A50B74FAE1B13D27BEA699FC925D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEA8D1DA2DC676ADA162AF5D719AFF /* Foundation.framework */; };
+		B3095E9A06940910D5302FE1F52FB2BA /* SweeterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514F0C652AF807BC850BC2F0A2DE335A /* SweeterSwift.framework */; };
+		B3728C258C79E9AE55E1F19D6515A154 /* MultiSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66C7076AA677A61F9C45AAEE6D1910 /* MultiSlider.swift */; };
+		CADD243602F8B795242D2C7CC9625FAF /* DateFormatter+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A6F50ADA10A9B9F016B96BFF440B22 /* DateFormatter+Sweeter.swift */; };
+		CBB8113C245DD01F102A60CB516D4211 /* UIViewController+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B17875B9752ABE1A96049C6D2CFCB6 /* UIViewController+Sweeter.swift */; };
+		D04291D05B105796BD79C03AF28184AA /* NSManagedObjectContext+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2113F292F4CE033CAA8A87E386D0FB4 /* NSManagedObjectContext+Sweeter.swift */; };
+		D668284B827A1188E3F30B1399F17239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEA8D1DA2DC676ADA162AF5D719AFF /* Foundation.framework */; };
+		D6C07782CA75326ABCCB1BE480D37115 /* MultiSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B0A8F276B24BC0D9DCE22B04FD9726 /* MultiSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6872BD48CC82DE270DD8B721AD91B5 /* AvailableHapticFeedback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DC9A22F8064F3116482B03F91EEBB2 /* AvailableHapticFeedback-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28DB3297D2EFE9BC6852907255DA534A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3512EBC5B210EF5D4D638A864E7E2A40;
+			remoteInfo = AvailableHapticFeedback;
+		};
+		4E9C89FC6414A7887407F00898818D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
+			remoteInfo = SweeterSwift;
+		};
+		5B24EB9FC7EE218DF6CE5E4D35841636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3512EBC5B210EF5D4D638A864E7E2A40;
+			remoteInfo = AvailableHapticFeedback;
+		};
+		5D31CE27E95C6F3E274E3491F8D0E22E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69984ED0D5D3CC1B9D170E4AC78A24E;
+			remoteInfo = MultiSlider;
+		};
+		F07D3E9404515ABFC03917E1CD3EB7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
+			remoteInfo = SweeterSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BC732B1C1F593A82C701BD5C521A84 /* Pods-SliderTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SliderTestApp-umbrella.h"; sourceTree = "<group>"; };
+		0CC68BC08E4DBE20B1FBE5A7079FDDB0 /* AvailableHapticFeedback.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvailableHapticFeedback.modulemap; sourceTree = "<group>"; };
+		0EDC8D5AFB7AB3881806D14BD9C8E7A5 /* MultiSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiSlider-dummy.m"; sourceTree = "<group>"; };
+		132896730159E006946A9535565C05B8 /* Pods-SliderTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SliderTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		17A6F50ADA10A9B9F016B96BFF440B22 /* DateFormatter+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Sweeter.swift"; path = "Source/DateFormatter+Sweeter.swift"; sourceTree = "<group>"; };
+		194A9EA69A5FC98FC0CDDFE4A2A0B16A /* UIView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Sweeter.swift"; path = "Source/UIView+Sweeter.swift"; sourceTree = "<group>"; };
+		2277607EBCC1AF6854064855AE4E9B76 /* NSObject+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Sweeter.swift"; path = "Source/NSObject+Sweeter.swift"; sourceTree = "<group>"; };
+		25747E60A1D00E9DD6CEDCD985017E1F /* AvailableHapticFeedback-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvailableHapticFeedback-Info.plist"; sourceTree = "<group>"; };
+		3A29320159EF25E506AA1CFD7E764E2E /* SweeterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweeterSwift.modulemap; sourceTree = "<group>"; };
+		3A8FA7F46C352D70D1D9860989036BE5 /* AvailableHapticFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvailableHapticFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC4BF210EF0AACBFC946AF60A2456B /* SweeterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweeterSwift-dummy.m"; sourceTree = "<group>"; };
+		487C55EB4C7EFC5F0AE5D631BABF584B /* String+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Sweeter.swift"; path = "Source/String+Sweeter.swift"; sourceTree = "<group>"; };
+		49DC9A22F8064F3116482B03F91EEBB2 /* AvailableHapticFeedback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvailableHapticFeedback-dummy.m"; sourceTree = "<group>"; };
+		514F0C652AF807BC850BC2F0A2DE335A /* SweeterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5335C210B31E7673C6A832CE2A66ED65 /* Pods-SliderTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SliderTestApp-frameworks.sh"; sourceTree = "<group>"; };
+		5540D911DFB59B57F2C6F8F2A4B02AF2 /* Pods-SliderTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SliderTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		57C74AAFA077F8A9B81646F287984E86 /* UIStackView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Sweeter.swift"; path = "Source/UIStackView+Sweeter.swift"; sourceTree = "<group>"; };
+		5B0A6CB22EEB260B581C43D3952BB1CE /* Pods-SliderTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SliderTestApp-dummy.m"; sourceTree = "<group>"; };
+		615E75ECD69AAA29B181AB9CF0561082 /* Bundle+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Sweeter.swift"; path = "Source/Bundle+Sweeter.swift"; sourceTree = "<group>"; };
+		64B17875B9752ABE1A96049C6D2CFCB6 /* UIViewController+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Sweeter.swift"; path = "Source/UIViewController+Sweeter.swift"; sourceTree = "<group>"; };
+		6AA2F2992395511AB50B86D4F21AE278 /* MultiSlider+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MultiSlider+Internal.swift"; path = "Sources/MultiSlider+Internal.swift"; sourceTree = "<group>"; };
+		6D3297216E9474C5A16E2A9845473F5D /* Pods-SliderTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SliderTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		70E42FFAE7A430E71702F934AE937091 /* SweeterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweeterSwift-Info.plist"; sourceTree = "<group>"; };
+		73301EEB1E33492A01ABC351DBCB836E /* Pods-SliderTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SliderTestApp.modulemap"; sourceTree = "<group>"; };
+		779670CDBC712D83FF3409CE56C501F9 /* MultiSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultiSlider.modulemap; sourceTree = "<group>"; };
+		7BAE0D09FC3D517548242DD49014B3D7 /* MultiSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MultiSlider-Info.plist"; sourceTree = "<group>"; };
+		7CA2A641C84868ACFC6983DB242C4610 /* UITextView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Sweeter.swift"; path = "Source/UITextView+Sweeter.swift"; sourceTree = "<group>"; };
+		805536EFC133BD84A670CCE6E897F271 /* Pods_SliderTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SliderTestApp.framework; path = "Pods-SliderTestApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3F6263A4B21290023048E02F2974F9 /* Swift+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Swift+Sweeter.swift"; path = "Source/Swift+Sweeter.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B234180E6D667BD4540B5234D721F1A6 /* SweeterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-umbrella.h"; sourceTree = "<group>"; };
+		B5E86193EF75D89D8BE40E89EC9B67FD /* NSAttributedString+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Sweeter.swift"; path = "Source/NSAttributedString+Sweeter.swift"; sourceTree = "<group>"; };
+		B6DEA8D1DA2DC676ADA162AF5D719AFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SweeterSwift.framework; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4EAB262861F06BCFB72187526FBFF8 /* SweeterSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweeterSwift.xcconfig; sourceTree = "<group>"; };
+		BE8687BEAD0751E0D2A271DFB27EB71E /* MultiSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiSlider-prefix.pch"; sourceTree = "<group>"; };
+		BF66C7076AA677A61F9C45AAEE6D1910 /* MultiSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiSlider.swift; path = Sources/MultiSlider.swift; sourceTree = "<group>"; };
+		C2113F292F4CE033CAA8A87E386D0FB4 /* NSManagedObjectContext+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Sweeter.swift"; path = "Source/NSManagedObjectContext+Sweeter.swift"; sourceTree = "<group>"; };
+		C2B0A8F276B24BC0D9DCE22B04FD9726 /* MultiSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiSlider-umbrella.h"; sourceTree = "<group>"; };
+		D0E50A43988E2579CB0004B8E8D54EA5 /* MultiSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiSlider.xcconfig; sourceTree = "<group>"; };
+		D306F3B73B0E0A789613827FE76170DA /* AvailableHapticFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvailableHapticFeedback.framework; path = AvailableHapticFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58B55E304F2580B339E8894FFCF7828 /* Pods-SliderTestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SliderTestApp-Info.plist"; sourceTree = "<group>"; };
+		DAF29DDC5A2637B2900F7524D6394FDC /* SweeterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-prefix.pch"; sourceTree = "<group>"; };
+		E0198D8212C9DEA38BB3C2D78AEB82A3 /* AvailableHapticFeedback-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvailableHapticFeedback-prefix.pch"; sourceTree = "<group>"; };
+		E4969C106CFF9F944997C435577BAF7E /* AvailableHapticFeedback-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvailableHapticFeedback-umbrella.h"; sourceTree = "<group>"; };
+		E6EDCC3942C8D65D1B39E6ECC654DEC2 /* AvailableHapticFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AvailableHapticFeedback.swift; path = Sources/AvailableHapticFeedback.swift; sourceTree = "<group>"; };
+		E79A928551101E0B86BEEEBE0E01141F /* MultiSliderExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiSliderExtensions.swift; path = Sources/MultiSliderExtensions.swift; sourceTree = "<group>"; };
+		EB99437268A5E6D693CECF071BDE21A2 /* Codable+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+Sweeter.swift"; path = "Source/Codable+Sweeter.swift"; sourceTree = "<group>"; };
+		F2359CD76C2A9F01E29AB8CD1DE921DB /* TimeInterval+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Sweeter.swift"; path = "Source/TimeInterval+Sweeter.swift"; sourceTree = "<group>"; };
+		F27802737069791AF3F6FB8597CEFB25 /* MultiSlider+Drag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MultiSlider+Drag.swift"; path = "Sources/MultiSlider+Drag.swift"; sourceTree = "<group>"; };
+		F8018FCAF9F491CEC009B163BE161EE9 /* AvailableHapticFeedback.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvailableHapticFeedback.xcconfig; sourceTree = "<group>"; };
+		F9706770730CB76359BB6E0FC4A7A48D /* Pods-SliderTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SliderTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB710FE125F9F03098F08A750214F3A2 /* MultiSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiSlider.framework; path = MultiSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC34BBF2C0C97B9B790EE2B172158895 /* UIApplication+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Sweeter.swift"; path = "Source/UIApplication+Sweeter.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5394D50EBA0176589A37989F1A92D865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F0BE26A904FDF5BFCED740E6DAC5ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DE6C9EE48EDD6EFD9B9CF82BAA7500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668284B827A1188E3F30B1399F17239 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D96F397375B310410C8BC633BCA01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A690A50B74FAE1B13D27BEA699FC925D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52ECB46AED2F548087A7DAB0AF4CF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C02AB0707A222669F57C7C0F9DF2F8 /* AvailableHapticFeedback.framework in Frameworks */,
+				6DB5EB233C9105978FEBF1661CAB69AA /* Foundation.framework in Frameworks */,
+				B3095E9A06940910D5302FE1F52FB2BA /* SweeterSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0074DBB7EB28FF07F631C01EF38571 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				779670CDBC712D83FF3409CE56C501F9 /* MultiSlider.modulemap */,
+				D0E50A43988E2579CB0004B8E8D54EA5 /* MultiSlider.xcconfig */,
+				0EDC8D5AFB7AB3881806D14BD9C8E7A5 /* MultiSlider-dummy.m */,
+				7BAE0D09FC3D517548242DD49014B3D7 /* MultiSlider-Info.plist */,
+				BE8687BEAD0751E0D2A271DFB27EB71E /* MultiSlider-prefix.pch */,
+				C2B0A8F276B24BC0D9DCE22B04FD9726 /* MultiSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MultiSlider";
+			sourceTree = "<group>";
+		};
+		14BE0C93BAD21ECBF20735CC9A9AC2EE /* AvailableHapticFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				E6EDCC3942C8D65D1B39E6ECC654DEC2 /* AvailableHapticFeedback.swift */,
+				661D77E809DA501A31B74C0D39CF120F /* Support Files */,
+			);
+			name = AvailableHapticFeedback;
+			path = AvailableHapticFeedback;
+			sourceTree = "<group>";
+		};
+		174BF1A3F5F2B15BFF144B676F193F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14BE0C93BAD21ECBF20735CC9A9AC2EE /* AvailableHapticFeedback */,
+				25E3E6CB6647AAE42BF312F587DBE057 /* MultiSlider */,
+				5C20FA7A9FEEC630A3A54DD509C74C5F /* SweeterSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25E3E6CB6647AAE42BF312F587DBE057 /* MultiSlider */ = {
+			isa = PBXGroup;
+			children = (
+				BF66C7076AA677A61F9C45AAEE6D1910 /* MultiSlider.swift */,
+				F27802737069791AF3F6FB8597CEFB25 /* MultiSlider+Drag.swift */,
+				6AA2F2992395511AB50B86D4F21AE278 /* MultiSlider+Internal.swift */,
+				E79A928551101E0B86BEEEBE0E01141F /* MultiSliderExtensions.swift */,
+				0E0074DBB7EB28FF07F631C01EF38571 /* Support Files */,
+			);
+			name = MultiSlider;
+			path = MultiSlider;
+			sourceTree = "<group>";
+		};
+		2EF37DFCA80C71B46C56A4D5C7684A38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD76DF3EC5D9FD1136504F1511AE82C3 /* Pods-SliderTestApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C896FD53AD6116C7ACC35B5B0946DB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FA7F46C352D70D1D9860989036BE5 /* AvailableHapticFeedback.framework */,
+				514F0C652AF807BC850BC2F0A2DE335A /* SweeterSwift.framework */,
+				80D24C3504546ED0D6B7501714184CD1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D50BC84448F0ED626B44C92B23B5DA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A29320159EF25E506AA1CFD7E764E2E /* SweeterSwift.modulemap */,
+				BB4EAB262861F06BCFB72187526FBFF8 /* SweeterSwift.xcconfig */,
+				42FC4BF210EF0AACBFC946AF60A2456B /* SweeterSwift-dummy.m */,
+				70E42FFAE7A430E71702F934AE937091 /* SweeterSwift-Info.plist */,
+				DAF29DDC5A2637B2900F7524D6394FDC /* SweeterSwift-prefix.pch */,
+				B234180E6D667BD4540B5234D721F1A6 /* SweeterSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SweeterSwift";
+			sourceTree = "<group>";
+		};
+		5C20FA7A9FEEC630A3A54DD509C74C5F /* SweeterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				615E75ECD69AAA29B181AB9CF0561082 /* Bundle+Sweeter.swift */,
+				EB99437268A5E6D693CECF071BDE21A2 /* Codable+Sweeter.swift */,
+				17A6F50ADA10A9B9F016B96BFF440B22 /* DateFormatter+Sweeter.swift */,
+				B5E86193EF75D89D8BE40E89EC9B67FD /* NSAttributedString+Sweeter.swift */,
+				C2113F292F4CE033CAA8A87E386D0FB4 /* NSManagedObjectContext+Sweeter.swift */,
+				2277607EBCC1AF6854064855AE4E9B76 /* NSObject+Sweeter.swift */,
+				487C55EB4C7EFC5F0AE5D631BABF584B /* String+Sweeter.swift */,
+				8B3F6263A4B21290023048E02F2974F9 /* Swift+Sweeter.swift */,
+				F2359CD76C2A9F01E29AB8CD1DE921DB /* TimeInterval+Sweeter.swift */,
+				FC34BBF2C0C97B9B790EE2B172158895 /* UIApplication+Sweeter.swift */,
+				57C74AAFA077F8A9B81646F287984E86 /* UIStackView+Sweeter.swift */,
+				7CA2A641C84868ACFC6983DB242C4610 /* UITextView+Sweeter.swift */,
+				194A9EA69A5FC98FC0CDDFE4A2A0B16A /* UIView+Sweeter.swift */,
+				64B17875B9752ABE1A96049C6D2CFCB6 /* UIViewController+Sweeter.swift */,
+				4D50BC84448F0ED626B44C92B23B5DA4 /* Support Files */,
+			);
+			name = SweeterSwift;
+			path = SweeterSwift;
+			sourceTree = "<group>";
+		};
+		661D77E809DA501A31B74C0D39CF120F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC68BC08E4DBE20B1FBE5A7079FDDB0 /* AvailableHapticFeedback.modulemap */,
+				F8018FCAF9F491CEC009B163BE161EE9 /* AvailableHapticFeedback.xcconfig */,
+				49DC9A22F8064F3116482B03F91EEBB2 /* AvailableHapticFeedback-dummy.m */,
+				25747E60A1D00E9DD6CEDCD985017E1F /* AvailableHapticFeedback-Info.plist */,
+				E0198D8212C9DEA38BB3C2D78AEB82A3 /* AvailableHapticFeedback-prefix.pch */,
+				E4969C106CFF9F944997C435577BAF7E /* AvailableHapticFeedback-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AvailableHapticFeedback";
+			sourceTree = "<group>";
+		};
+		80D24C3504546ED0D6B7501714184CD1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6DEA8D1DA2DC676ADA162AF5D719AFF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD76DF3EC5D9FD1136504F1511AE82C3 /* Pods-SliderTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				73301EEB1E33492A01ABC351DBCB836E /* Pods-SliderTestApp.modulemap */,
+				F9706770730CB76359BB6E0FC4A7A48D /* Pods-SliderTestApp-acknowledgements.markdown */,
+				6D3297216E9474C5A16E2A9845473F5D /* Pods-SliderTestApp-acknowledgements.plist */,
+				5B0A6CB22EEB260B581C43D3952BB1CE /* Pods-SliderTestApp-dummy.m */,
+				5335C210B31E7673C6A832CE2A66ED65 /* Pods-SliderTestApp-frameworks.sh */,
+				D58B55E304F2580B339E8894FFCF7828 /* Pods-SliderTestApp-Info.plist */,
+				03BC732B1C1F593A82C701BD5C521A84 /* Pods-SliderTestApp-umbrella.h */,
+				132896730159E006946A9535565C05B8 /* Pods-SliderTestApp.debug.xcconfig */,
+				5540D911DFB59B57F2C6F8F2A4B02AF2 /* Pods-SliderTestApp.release.xcconfig */,
+			);
+			name = "Pods-SliderTestApp";
+			path = "Target Support Files/Pods-SliderTestApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3C896FD53AD6116C7ACC35B5B0946DB0 /* Frameworks */,
+				174BF1A3F5F2B15BFF144B676F193F70 /* Pods */,
+				E0F41B9693FC30FA188B8A9E7A905B1C /* Products */,
+				2EF37DFCA80C71B46C56A4D5C7684A38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0F41B9693FC30FA188B8A9E7A905B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D306F3B73B0E0A789613827FE76170DA /* AvailableHapticFeedback.framework */,
+				FB710FE125F9F03098F08A750214F3A2 /* MultiSlider.framework */,
+				805536EFC133BD84A670CCE6E897F271 /* Pods_SliderTestApp.framework */,
+				B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E74CF3AE25D2103A49AEA03AD48EAEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6065B6A7DD8827C0C12518F0DF6D0CFE /* SweeterSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E1BA29F8122703FF3674B90D7BEE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F841179D74843A535AAB86E5777F5C /* AvailableHapticFeedback-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E347EC4EB43A5FC3A68ACC051142CFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC2048A343B5BE69E3943B38EFD98F3 /* Pods-SliderTestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB4B3BFDC9DD6DFD22BC95230C42C6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C07782CA75326ABCCB1BE480D37115 /* MultiSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85EFC3A758CBF520B5962085FEDAFC0 /* Build configuration list for PBXNativeTarget "AvailableHapticFeedback" */;
+			buildPhases = (
+				805E1BA29F8122703FF3674B90D7BEE8 /* Headers */,
+				965FFD72ACD27C799E26B526084C282D /* Sources */,
+				B0D96F397375B310410C8BC633BCA01B /* Frameworks */,
+				9DA81E5ADC0D75582D0078ADE7D06386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvailableHapticFeedback;
+			productName = AvailableHapticFeedback;
+			productReference = D306F3B73B0E0A789613827FE76170DA /* AvailableHapticFeedback.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49D600FE3F0ACAE0A7AEE35321F650B0 /* Pods-SliderTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1C655FAAA54C4232C2A79702B369AA /* Build configuration list for PBXNativeTarget "Pods-SliderTestApp" */;
+			buildPhases = (
+				8E347EC4EB43A5FC3A68ACC051142CFF /* Headers */,
+				AC4919A586EE0E5E49E82984BE60E3F1 /* Sources */,
+				5394D50EBA0176589A37989F1A92D865 /* Frameworks */,
+				A248D04575A41492451BE84A775AFEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550C275EB1AA27D43756BCCAD3C72445 /* PBXTargetDependency */,
+				79C1EF5D80F41884136F5EEA076FB0E7 /* PBXTargetDependency */,
+				84F87323736AC147A5B6BD965D9A7662 /* PBXTargetDependency */,
+			);
+			name = "Pods-SliderTestApp";
+			productName = "Pods-SliderTestApp";
+			productReference = 805536EFC133BD84A670CCE6E897F271 /* Pods_SliderTestApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B082F694BC605E911954668DFBCA4230 /* Build configuration list for PBXNativeTarget "SweeterSwift" */;
+			buildPhases = (
+				2E74CF3AE25D2103A49AEA03AD48EAEE /* Headers */,
+				DA3C18118CF69F773B0CFDF74B27072C /* Sources */,
+				55DE6C9EE48EDD6EFD9B9CF82BAA7500 /* Frameworks */,
+				709553951A28EED968AD5FE40CAEC23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweeterSwift;
+			productName = SweeterSwift;
+			productReference = B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F69984ED0D5D3CC1B9D170E4AC78A24E /* MultiSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD57905F83F887C0BB4D43B5C6023943 /* Build configuration list for PBXNativeTarget "MultiSlider" */;
+			buildPhases = (
+				DEB4B3BFDC9DD6DFD22BC95230C42C6E /* Headers */,
+				7CFB2DD2767597971463432E1E5C8723 /* Sources */,
+				F52ECB46AED2F548087A7DAB0AF4CF37 /* Frameworks */,
+				FF0A84EB50E88377441CB36D0C5F9215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E9840A86E55F87DA1777C6021D39A3D /* PBXTargetDependency */,
+				8C52F4A52CBA8BC714ACB1D58D12BA80 /* PBXTargetDependency */,
+			);
+			name = MultiSlider;
+			productName = MultiSlider;
+			productReference = FB710FE125F9F03098F08A750214F3A2 /* MultiSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E0F41B9693FC30FA188B8A9E7A905B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */,
+				F69984ED0D5D3CC1B9D170E4AC78A24E /* MultiSlider */,
+				49D600FE3F0ACAE0A7AEE35321F650B0 /* Pods-SliderTestApp */,
+				6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709553951A28EED968AD5FE40CAEC23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA81E5ADC0D75582D0078ADE7D06386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A248D04575A41492451BE84A775AFEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A84EB50E88377441CB36D0C5F9215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFB2DD2767597971463432E1E5C8723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D75CB53A4B99F1F5E32F68DAC33661 /* MultiSlider+Drag.swift in Sources */,
+				75EEAD1A654E8D0FDE8AA1B3692D519E /* MultiSlider+Internal.swift in Sources */,
+				3346DBAD90FF44438585AAEB1F45E65A /* MultiSlider-dummy.m in Sources */,
+				B3728C258C79E9AE55E1F19D6515A154 /* MultiSlider.swift in Sources */,
+				0FAF10B953348E4809D9C0E0D90373AC /* MultiSliderExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965FFD72ACD27C799E26B526084C282D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6872BD48CC82DE270DD8B721AD91B5 /* AvailableHapticFeedback-dummy.m in Sources */,
+				1C70499DBB19E6F16AA731D3EEFEF379 /* AvailableHapticFeedback.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4919A586EE0E5E49E82984BE60E3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E0003CC70501D2350A2EE19D63FA3D /* Pods-SliderTestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3C18118CF69F773B0CFDF74B27072C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729444C129930B0D6D866F472B9135A2 /* Bundle+Sweeter.swift in Sources */,
+				7773D89CDF2497CD790455F96E9CBD6F /* Codable+Sweeter.swift in Sources */,
+				CADD243602F8B795242D2C7CC9625FAF /* DateFormatter+Sweeter.swift in Sources */,
+				426D653DE601DC368465AAAB635BAA76 /* NSAttributedString+Sweeter.swift in Sources */,
+				D04291D05B105796BD79C03AF28184AA /* NSManagedObjectContext+Sweeter.swift in Sources */,
+				8390D125170BF642F18ABA21E6AF3600 /* NSObject+Sweeter.swift in Sources */,
+				3A89DB35B5BC3B209426A1D62F9CB0B1 /* String+Sweeter.swift in Sources */,
+				1F0BF72601371B45C31EB0357E374AEB /* SweeterSwift-dummy.m in Sources */,
+				04B7F7C9E32EBF66CD80D843B44DA222 /* Swift+Sweeter.swift in Sources */,
+				443CF6A26998A642A34DB1B97B8E465D /* TimeInterval+Sweeter.swift in Sources */,
+				60E8AE64ABD5300742412EFEF2B57006 /* UIApplication+Sweeter.swift in Sources */,
+				65A022FAE15175566197A94A7A3BD8F0 /* UIStackView+Sweeter.swift in Sources */,
+				84EB4E634F9BB3D8E51F4E0ED1D3EA7F /* UITextView+Sweeter.swift in Sources */,
+				4CB9FD431FB20AE7D8D3EFF7CAB104E2 /* UIView+Sweeter.swift in Sources */,
+				CBB8113C245DD01F102A60CB516D4211 /* UIViewController+Sweeter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550C275EB1AA27D43756BCCAD3C72445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvailableHapticFeedback;
+			target = 3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */;
+			targetProxy = 28DB3297D2EFE9BC6852907255DA534A /* PBXContainerItemProxy */;
+		};
+		79C1EF5D80F41884136F5EEA076FB0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiSlider;
+			target = F69984ED0D5D3CC1B9D170E4AC78A24E /* MultiSlider */;
+			targetProxy = 5D31CE27E95C6F3E274E3491F8D0E22E /* PBXContainerItemProxy */;
+		};
+		84F87323736AC147A5B6BD965D9A7662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SweeterSwift;
+			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
+			targetProxy = F07D3E9404515ABFC03917E1CD3EB7FD /* PBXContainerItemProxy */;
+		};
+		8C52F4A52CBA8BC714ACB1D58D12BA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SweeterSwift;
+			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
+			targetProxy = 4E9C89FC6414A7887407F00898818D57 /* PBXContainerItemProxy */;
+		};
+		9E9840A86E55F87DA1777C6021D39A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvailableHapticFeedback;
+			target = 3512EBC5B210EF5D4D638A864E7E2A40 /* AvailableHapticFeedback */;
+			targetProxy = 5B24EB9FC7EE218DF6CE5E4D35841636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DC93CD566A2F8ECFF022E522A7BB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4EAB262861F06BCFB72187526FBFF8 /* SweeterSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SweeterSwift;
+				PRODUCT_NAME = SweeterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C313530B73DB5D98F6A0B03AFB1C7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5540D911DFB59B57F2C6F8F2A4B02AF2 /* Pods-SliderTestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SliderTestApp/Pods-SliderTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SliderTestApp/Pods-SliderTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A48592CC1F1A1668636BEFA7F0F1C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8018FCAF9F491CEC009B163BE161EE9 /* AvailableHapticFeedback.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback.modulemap";
+				PRODUCT_MODULE_NAME = AvailableHapticFeedback;
+				PRODUCT_NAME = AvailableHapticFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DE530FD0D8D03FFAEB6DB255FB255E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8018FCAF9F491CEC009B163BE161EE9 /* AvailableHapticFeedback.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AvailableHapticFeedback/AvailableHapticFeedback.modulemap";
+				PRODUCT_MODULE_NAME = AvailableHapticFeedback;
+				PRODUCT_NAME = AvailableHapticFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF2DAE5EB39C2581D303DCD99E4F2E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E50A43988E2579CB0004B8E8D54EA5 /* MultiSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiSlider/MultiSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiSlider/MultiSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = "Target Support Files/MultiSlider/MultiSlider.modulemap";
+				PRODUCT_MODULE_NAME = MultiSlider;
+				PRODUCT_NAME = MultiSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6AE1403A93892972A1BCDF565613C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E50A43988E2579CB0004B8E8D54EA5 /* MultiSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiSlider/MultiSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiSlider/MultiSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = "Target Support Files/MultiSlider/MultiSlider.modulemap";
+				PRODUCT_MODULE_NAME = MultiSlider;
+				PRODUCT_NAME = MultiSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8EE7895958CA58E04A363CFFB55F552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4EAB262861F06BCFB72187526FBFF8 /* SweeterSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SweeterSwift;
+				PRODUCT_NAME = SweeterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F8AADE2A2CB2C4941B46A515169E9B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132896730159E006946A9535565C05B8 /* Pods-SliderTestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SliderTestApp/Pods-SliderTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SliderTestApp/Pods-SliderTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD57905F83F887C0BB4D43B5C6023943 /* Build configuration list for PBXNativeTarget "MultiSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2DAE5EB39C2581D303DCD99E4F2E9E /* Debug */,
+				D6AE1403A93892972A1BCDF565613C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B082F694BC605E911954668DFBCA4230 /* Build configuration list for PBXNativeTarget "SweeterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DC93CD566A2F8ECFF022E522A7BB74 /* Debug */,
+				D8EE7895958CA58E04A363CFFB55F552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85EFC3A758CBF520B5962085FEDAFC0 /* Build configuration list for PBXNativeTarget "AvailableHapticFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE530FD0D8D03FFAEB6DB255FB255E0 /* Debug */,
+				1A48592CC1F1A1668636BEFA7F0F1C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1C655FAAA54C4232C2A79702B369AA /* Build configuration list for PBXNativeTarget "Pods-SliderTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AADE2A2CB2C4941B46A515169E9B54 /* Debug */,
+				0C313530B73DB5D98F6A0B03AFB1C7D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

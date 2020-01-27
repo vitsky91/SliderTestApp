@@ -1,0 +1,6 @@
+framework module Pods_SliderTestApp {
+  umbrella header "Pods-SliderTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

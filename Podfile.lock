@@ -1,0 +1,24 @@
+PODS:
+  - AvailableHapticFeedback (1.0.2)
+  - MultiSlider (1.10.3):
+    - AvailableHapticFeedback
+    - SweeterSwift
+  - SweeterSwift (1.0.5)
+
+DEPENDENCIES:
+  - MultiSlider
+
+SPEC REPOS:
+  trunk:
+    - AvailableHapticFeedback
+    - MultiSlider
+    - SweeterSwift
+
+SPEC CHECKSUMS:
+  AvailableHapticFeedback: 9b21b9f6d3e4566015988b5de35b40abefe6c09a
+  MultiSlider: 623b875eb935b561cdb6674f959d13f9fb01209e
+  SweeterSwift: 2708d1eea926546f8f6e8fea38ac8f5598ff00c7
+
+PODFILE CHECKSUM: e1fc47dc16487c94c1f132ec28dfcf41fa4855da
+
+COCOAPODS: 1.8.4
